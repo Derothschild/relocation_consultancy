@@ -1,0 +1,32 @@
+nav {
+    background-color: black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+body {
+    background-image: url("/home/derothschild/Work_Projects/relocation_consultancy/images/homepage-background-image.jpg");
+    background-size: cover; 
+}
