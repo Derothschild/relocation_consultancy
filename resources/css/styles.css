@@ -23,10 +23,23 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #555;
+    background-color: gold;
 }
 
 body {
-    background-image: url("/home/derothschild/Work_Projects/relocation_consultancy/images/homepage-background-image.jpg");
-    background-size: cover; 
+  background-image: url("/home/derothschild/Work_Projects/relocation_consultancy/images/homepage-background-image.jpg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+    
+}
+
+/*possibly add transparent overlay ontop of the the image*/
+
+/*body::before {
+  background-color: rgba(0,0,0,0.75);
+}*/
+
+.text-color {
+  color: midnightblue;
 }
